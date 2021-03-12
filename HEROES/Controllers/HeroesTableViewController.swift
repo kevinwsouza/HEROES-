@@ -23,6 +23,10 @@ class HeroesTableViewController: UITableViewController {
         vc.heroes = heroes
     }
     
+    override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200
+    }
+    
     func loadAllHeroes(){
         let fileURL = Bundle.main.url(forResource: "heroes.json", withExtension: nil)!
         let jsonData = try! Data(contentsOf: fileURL)
