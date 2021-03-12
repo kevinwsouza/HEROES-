@@ -15,7 +15,15 @@
 		14BCEA2F25FA9466009102C2 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BCEA2E25FA9466009102C2 /* DescriptionViewController.swift */; };
 		14BCEA3225FA947E009102C2 /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BCEA3125FA947E009102C2 /* HeroesTableViewController.swift */; };
 		14BCEA3525FA953B009102C2 /* HeroesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BCEA3425FA953B009102C2 /* HeroesModel.swift */; };
-		14BCEA3A25FABF9F009102C2 /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 14BCEA3925FABF9F009102C2 /* heroes.json */; };
+		14BCEA4025FAC277009102C2 /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 14BCEA3F25FAC277009102C2 /* heroes.json */; };
+		14F4303125FBDBE5004368D3 /* Spider-Man.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F4302A25FBDBE4004368D3 /* Spider-Man.png */; };
+		14F4303225FBDBE5004368D3 /* Doctor Strange.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F4302B25FBDBE5004368D3 /* Doctor Strange.png */; };
+		14F4303325FBDBE5004368D3 /* Iron Man.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F4302C25FBDBE5004368D3 /* Iron Man.png */; };
+		14F4303425FBDBE5004368D3 /* Hulk.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F4302D25FBDBE5004368D3 /* Hulk.png */; };
+		14F4303525FBDBE5004368D3 /* Captain America.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F4302E25FBDBE5004368D3 /* Captain America.png */; };
+		14F4303625FBDBE5004368D3 /* Vision.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F4302F25FBDBE5004368D3 /* Vision.png */; };
+		14F4303725FBDBE5004368D3 /* Thor.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F4303025FBDBE5004368D3 /* Thor.png */; };
+		14F4303F25FBE682004368D3 /* HeroCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4303E25FBE682004368D3 /* HeroCTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +37,15 @@
 		14BCEA2E25FA9466009102C2 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		14BCEA3125FA947E009102C2 /* HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewController.swift; sourceTree = "<group>"; };
 		14BCEA3425FA953B009102C2 /* HeroesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesModel.swift; sourceTree = "<group>"; };
-		14BCEA3925FABF9F009102C2 /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
-		14BCEA3C25FAC06E009102C2 /* teste.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teste.json; sourceTree = "<group>"; };
+		14BCEA3F25FAC277009102C2 /* heroes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
+		14F4302A25FBDBE4004368D3 /* Spider-Man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spider-Man.png"; sourceTree = "<group>"; };
+		14F4302B25FBDBE5004368D3 /* Doctor Strange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doctor Strange.png"; sourceTree = "<group>"; };
+		14F4302C25FBDBE5004368D3 /* Iron Man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iron Man.png"; sourceTree = "<group>"; };
+		14F4302D25FBDBE5004368D3 /* Hulk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hulk.png; sourceTree = "<group>"; };
+		14F4302E25FBDBE5004368D3 /* Captain America.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Captain America.png"; sourceTree = "<group>"; };
+		14F4302F25FBDBE5004368D3 /* Vision.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vision.png; sourceTree = "<group>"; };
+		14F4303025FBDBE5004368D3 /* Thor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thor.png; sourceTree = "<group>"; };
+		14F4303E25FBE682004368D3 /* HeroCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +112,7 @@
 			children = (
 				14BCEA3125FA947E009102C2 /* HeroesTableViewController.swift */,
 				14BCEA2E25FA9466009102C2 /* DescriptionViewController.swift */,
+				14F4303E25FBE682004368D3 /* HeroCTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -104,8 +120,14 @@
 		14BCEA1C25FA67FD009102C2 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				14BCEA3925FABF9F009102C2 /* heroes.json */,
-				14BCEA3C25FAC06E009102C2 /* teste.json */,
+				14F4302E25FBDBE5004368D3 /* Captain America.png */,
+				14F4302D25FBDBE5004368D3 /* Hulk.png */,
+				14F4302C25FBDBE5004368D3 /* Iron Man.png */,
+				14F4302A25FBDBE4004368D3 /* Spider-Man.png */,
+				14F4302B25FBDBE5004368D3 /* Doctor Strange.png */,
+				14F4303025FBDBE5004368D3 /* Thor.png */,
+				14F4302F25FBDBE5004368D3 /* Vision.png */,
+				14BCEA3F25FAC277009102C2 /* heroes.json */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -167,10 +189,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F4303725FBDBE5004368D3 /* Thor.png in Resources */,
+				14F4303525FBDBE5004368D3 /* Captain America.png in Resources */,
+				14F4303225FBDBE5004368D3 /* Doctor Strange.png in Resources */,
 				14BCEA1025F96D76009102C2 /* LaunchScreen.storyboard in Resources */,
-				14BCEA3A25FABF9F009102C2 /* heroes.json in Resources */,
+				14F4303325FBDBE5004368D3 /* Iron Man.png in Resources */,
+				14BCEA4025FAC277009102C2 /* heroes.json in Resources */,
 				14BCEA0D25F96D76009102C2 /* Assets.xcassets in Resources */,
+				14F4303125FBDBE5004368D3 /* Spider-Man.png in Resources */,
+				14F4303625FBDBE5004368D3 /* Vision.png in Resources */,
 				14BCEA0B25F96D75009102C2 /* Main.storyboard in Resources */,
+				14F4303425FBDBE5004368D3 /* Hulk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +215,7 @@
 				14BCEA0425F96D75009102C2 /* AppDelegate.swift in Sources */,
 				14BCEA0625F96D75009102C2 /* SceneDelegate.swift in Sources */,
 				14BCEA3225FA947E009102C2 /* HeroesTableViewController.swift in Sources */,
+				14F4303F25FBE682004368D3 /* HeroCTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,12 +8,16 @@
 import UIKit
 
 class DescriptionViewController: UIViewController {
+    
+    var heroes: HeroesModel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("nome do heroi selecionado. \(heroes.hero)")
 
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*

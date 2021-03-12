@@ -17,6 +17,12 @@ class HeroesTableViewController: UITableViewController {
         
         }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! DescriptionViewController
+        let heroes = heroesModel[tableView.indexPathForSelectedRow!.row]
+        vc.heroes = heroes
+    }
+    
     func loadAllHeroes(){
         let fileURL = Bundle.main.url(forResource: "heroes.json", withExtension: nil)!
         let jsonData = try! Data(contentsOf: fileURL)
@@ -41,12 +47,10 @@ class HeroesTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HeroCTableViewCell
 
         let heroesM = heroesModel[indexPath.row]
-        cell.textLabel?.text = "\(heroesM.hero)"
-        cell.detailTextLabel?.text = "\(heroesM.power)"
-        cell.imageView?.image = UIImage(named: "\(heroesM.hero).png")
+        cell.prepare(with: heroesM)
         return cell
     }
     
