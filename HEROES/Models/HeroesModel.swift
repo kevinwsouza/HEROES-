@@ -13,4 +13,11 @@ struct HeroesModel: Codable {
     let power: String
     let realName: String
     let description: String
+    //let appears: [Appear]
 }
+/*
+struct Appear: Codable {
+    let Movies: String
+    let Hqs: String
+}
+*/

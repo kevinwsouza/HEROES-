@@ -13,6 +13,7 @@ class HeroCTableViewCell: UITableViewCell {
     @IBOutlet weak var lbNameHero: UILabel!
     @IBOutlet weak var lbPower: UILabel!
     
+
     
     
     
@@ -27,9 +28,21 @@ class HeroCTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    
     func prepare(with hr: HeroesModel) {
         imHero.image = UIImage(named: hr.hero)
         lbNameHero.text = hr.hero
         lbPower.text = hr.power
     }
+    
 }
+
+
+
+
+/*
+ "Appears": [{
+     "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home"
+     "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
+ }]
+ */

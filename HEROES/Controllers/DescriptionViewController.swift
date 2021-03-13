@@ -9,25 +9,32 @@ import UIKit
 
 class DescriptionViewController: UIViewController {
     
+    @IBOutlet weak var imHero: UIImageView!
+    @IBOutlet weak var lbRealName: UILabel!
+    @IBOutlet weak var lbAge: UILabel!
+    @IBOutlet weak var lbDescription: UILabel!
+    @IBOutlet weak var lbMovies: UILabel!
+    @IBOutlet weak var lbHqs: UILabel!
+    
+   
+    
+    
+    
+    
     var heroes: HeroesModel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("nome do heroi selecionado. \(heroes.hero)")
-
-        // Do any additional setup after loading the view.
+        title = "\(heroes.hero)"
+        imHero.image = UIImage(named: "\(heroes.hero).png")
+        lbRealName.text = "Real Name: \(heroes.realName)"
+        lbAge.text = "Age: \(heroes.age)"
+        lbDescription.text = "Description: \(heroes.description)"
     }
-    
-    
-
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func prepare(with appear: Appear) {
+        lbMovies.text = appear.Movies
+        lbHqs.text = appear.Hqs
     }
     */
-
 }
