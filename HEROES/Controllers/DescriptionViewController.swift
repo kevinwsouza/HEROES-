@@ -30,11 +30,11 @@ class DescriptionViewController: UIViewController {
         lbRealName.text = "Real Name: \(heroes.realName)"
         lbAge.text = "Age: \(heroes.age)"
         lbDescription.text = "Description: \(heroes.description)"
+        prepare(with: heroes.appears.first!)
+        
     }
-    /*
-    func prepare(with appear: Appear) {
+    func prepare(with appear: Appears) {
         lbMovies.text = appear.Movies
         lbHqs.text = appear.Hqs
     }
-    */
 }

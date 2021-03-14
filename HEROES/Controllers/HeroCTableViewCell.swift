@@ -36,13 +36,3 @@ class HeroCTableViewCell: UITableViewCell {
     }
     
 }
-
-
-
-
-/*
- "Appears": [{
-     "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home"
-     "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
- }]
- */

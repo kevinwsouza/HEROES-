@@ -3,48 +3,76 @@
     "age": 16,
     "power": "Precognitive Spider-sense Ability and Superhuman Strenght",
     "realName": "Peter Parker",
-    "description": "Spider-Man has spider-like abilities including superhuman strength and the ability to cling to most surfaces. He is also extremely agile and has amazing reflexes. Spider-Man also has a “spider sense,” that warns him of impending danger. Spider-Man has supplemented his powers with technology."
+    "description": "Spider-Man has spider-like abilities including superhuman strength and the ability to cling to most surfaces. He is also extremely agile and has amazing reflexes. Spider-Man also has a “spider sense,” that warns him of impending danger. Spider-Man has supplemented his powers with technology.",
+    "appears": [{
+        "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home",
+        "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
+    }]
 },
 {
     "hero": "Captain America",
     "age": 70,
     "power": "Enchanted Strenght and Accelerated Healing",
     "realName": "Steve Rogers",
-    "description": "Captain America is the alter ego of Steve Rogers, a frail young artist enhanced to the peak of human perfection by an experimental 'super-soldier serum' after joining the military to aid the United States government's efforts in World War II."
+    "description": "Captain America is the alter ego of Steve Rogers, a frail young artist enhanced to the peak of human perfection by an experimental 'super-soldier serum' after joining the military to aid the United States government's efforts in World War II.",
+    "appears": [{
+        "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home",
+        "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
+    }]
 },
 {
     "hero": "Iron Man",
     "age": 40,
     "power": "Proficient scientist,engineer and Genius level intellect",
     "realName": "Tony Stark",
-    "description": "A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist, 'Anthony Edward Tony Stark' suffers a severe chest injury during a kidnapping. When his captors attempt to force him to build a weapon of mass destruction, he instead creates a mechanized suit of armor to save his life and escape captivity. Later, Stark develops his suit, adding weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man. Although at first concealing his true identity, Stark eventually publicly reveals himself to be Iron Man."
+    "description": "A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist, 'Anthony Edward Tony Stark' suffers a severe chest injury during a kidnapping. When his captors attempt to force him to build a weapon of mass destruction, he instead creates a mechanized suit of armor to save his life and escape captivity. Later, Stark develops his suit, adding weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man. Although at first concealing his true identity, Stark eventually publicly reveals himself to be Iron Man.",
+    "appears": [{
+        "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home",
+        "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
+    }]
 },
 {
     "hero": "Hulk",
     "age": 49,
     "power": "Invulnerability and Superhuman strength",
     "realName": "Dr. Robert Bruce Banner",
-    "description": "Following his accidental exposure to gamma rays saving the life of Rick Jones during the detonation of an experimental bomb, Banner is physically transformed into the Hulk when subjected to emotional stress, at or against his will, often leading to destructive rampages and conflicts that complicate Banner's civilian life."
+    "description": "Following his accidental exposure to gamma rays saving the life of Rick Jones during the detonation of an experimental bomb, Banner is physically transformed into the Hulk when subjected to emotional stress, at or against his will, often leading to destructive rampages and conflicts that complicate Banner's civilian life.",
+    "appears": [{
+        "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home",
+        "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
+    }]
 },
 {
     "hero": "Thor",
     "age": 100,
     "power": "Electric manipulation and Superhuman strength",
     "realName": "Thor Odinson",
-    "description": "Thor Odinson is the Asgardian God of Thunder, superhero, self-proclaimed protector of Earth and the king of Asgard. Thor made a name for himself as the mightiest warrior on his homeworld and subsequently became well known for his actions on Earth, which included acting as a founding member of the Avengers."
+    "description": "Thor Odinson is the Asgardian God of Thunder, superhero, self-proclaimed protector of Earth and the king of Asgard. Thor made a name for himself as the mightiest warrior on his homeworld and subsequently became well known for his actions on Earth, which included acting as a founding member of the Avengers.",
+    "appears": [{
+        "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home",
+        "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
+    }]
 },
 {
     "hero": "Vision",
     "age": 1,
     "power": "Density control (intangibility, invulnerability) and Superhuman Intelligence",
     "realName": "Vision",
-    "description": "The Vision is a 'synthezoid', an advanced android, built to replicate the human form using Horton Cells, with the Solar Gem to give him consciousness. He was constructed by Ultron using parts of the original Human Torch which was created by Phineas Horton."
+    "description": "The Vision is a 'synthezoid', an advanced android, built to replicate the human form using Horton Cells, with the Solar Gem to give him consciousness. He was constructed by Ultron using parts of the original Human Torch which was created by Phineas Horton.",
+    "appears": [{
+        "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home",
+        "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
+    }]
 },
 {
     "hero": "Doctor Strange",
     "age": 45,
     "power": "Mastery of magic and Genius level intellect",
     "realName": "Stephen Strange",
-    "description": "Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats. Inspired by stories of black magic and Chandu the Magician, Strange was created during the Silver Age of Comic Books to bring a different kind of character and themes of mysticism to Marvel Comics."
+    "description": "Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats. Inspired by stories of black magic and Chandu the Magician, Strange was created during the Silver Age of Comic Books to bring a different kind of character and themes of mysticism to Marvel Comics.",
+    "appears": [{
+        "Movies": "Spider-Man: Homecoming and Spider-Man Far From Home",
+        "Hqs": "The Amazing Spider-Man and Untold Tales of Spider-Man"
+    }]
 },
 ]

@@ -13,11 +13,11 @@ struct HeroesModel: Codable {
     let power: String
     let realName: String
     let description: String
-    //let appears: [Appear]
+    let appears: [Appears]
 }
-/*
-struct Appear: Codable {
+
+struct Appears: Codable {
     let Movies: String
     let Hqs: String
 }
-*/
+
