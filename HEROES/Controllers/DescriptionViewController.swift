@@ -21,6 +21,7 @@ class DescriptionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.topItem?.backButtonTitle = "SuperHeroes"
         title = "\(heroes.hero)"
         imHero.image = UIImage(named: "\(heroes.hero).png")
         lbRealName.text = "Real Name: \(heroes.realName)"
