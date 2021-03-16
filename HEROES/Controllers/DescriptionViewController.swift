@@ -15,14 +15,10 @@ class DescriptionViewController: UIViewController {
     @IBOutlet weak var lbDescription: UILabel!
     @IBOutlet weak var lbMovies: UILabel!
     @IBOutlet weak var lbHqs: UILabel!
-    
-   
-    
-    
-    
+    @IBOutlet weak var scrollView: UIScrollView!
     
     var heroes: HeroesModel!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "\(heroes.hero)"
@@ -31,7 +27,7 @@ class DescriptionViewController: UIViewController {
         lbAge.text = "Age: \(heroes.age)"
         lbDescription.text = "Description: \(heroes.description)"
         prepare(with: heroes.appears.first!)
-        
+        self.scrollView.showsVerticalScrollIndicator = false
     }
     func prepare(with appear: Appears) {
         lbMovies.text = appear.Movies

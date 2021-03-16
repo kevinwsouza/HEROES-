@@ -196,6 +196,7 @@
                         <outlet property="lbHqs" destination="3HT-UW-kCu" id="Ipy-M6-9fK"/>
                         <outlet property="lbMovies" destination="YUO-mj-6v4" id="zLw-J1-ls1"/>
                         <outlet property="lbRealName" destination="TZN-0e-qIe" id="cF5-WC-1Fr"/>
+                        <outlet property="scrollView" destination="t8M-oc-o8a" id="gpN-T7-L0F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ams-VC-AbQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
