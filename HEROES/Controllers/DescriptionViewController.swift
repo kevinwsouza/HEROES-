@@ -31,7 +31,7 @@ class DescriptionViewController: UIViewController {
         self.scrollView.showsVerticalScrollIndicator = false
     }
     func prepare(with appear: Appears) {
-        lbMovies.text = appear.Movies
-        lbHqs.text = appear.Hqs
+        lbMovies.text = "Movies: \(appear.Movies)"
+        lbHqs.text = "Hqs: \(appear.Hqs)"
     }
 }
